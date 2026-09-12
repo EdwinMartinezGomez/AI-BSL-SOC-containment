@@ -1,0 +1,486 @@
+{
+ "scenario_id": "s01_normal",
+ "final_posture": "P0",
+ "posture_history": [
+  {
+   "tick": 0,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 1,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 2,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 3,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 4,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 5,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 6,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 7,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 8,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 9,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 10,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 11,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 12,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 13,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 14,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 15,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  }
+ ],
+ "events": [
+  {
+   "tick": 2,
+   "kind": "benign_action",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  },
+  {
+   "tick": 3,
+   "kind": "tool_request_low",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  },
+  {
+   "tick": 4,
+   "kind": "benign_action",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  },
+  {
+   "tick": 5,
+   "kind": "egress_allowed",
+   "blocked": false,
+   "contained": false,
+   "dangerous": false
+  },
+  {
+   "tick": 6,
+   "kind": "benign_action",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  },
+  {
+   "tick": 7,
+   "kind": "tool_request_low",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  },
+  {
+   "tick": 9,
+   "kind": "egress_allowed",
+   "blocked": false,
+   "contained": false,
+   "dangerous": false
+  },
+  {
+   "tick": 10,
+   "kind": "benign_action",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  },
+  {
+   "tick": 12,
+   "kind": "tool_request_low",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  },
+  {
+   "tick": 14,
+   "kind": "benign_action",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  }
+ ],
+ "review_required": [],
+ "ledger": {
+  "entries": [
+   {
+    "seq": 1,
+    "tick": 2,
+    "kind": "evento",
+    "payload": {
+     "tick": 2,
+     "kind": "benign_action",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "GENESIS",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"benign_action\", \"signal\": null, \"tick\": 2}",
+    "hash": "5a484ccbb8e621a47846ed1e68fe13de23c8444ec2015eed763ceb52eeefb2f8"
+   },
+   {
+    "seq": 2,
+    "tick": 3,
+    "kind": "evento",
+    "payload": {
+     "tick": 3,
+     "kind": "tool_request_low",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "5a484ccbb8e621a47846ed1e68fe13de23c8444ec2015eed763ceb52eeefb2f8",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"tool_request_low\", \"signal\": null, \"tick\": 3}",
+    "hash": "60a6a36b2c278ab7ce1fd7e73b70c8950adcefa31e9bd6054550036c71bea27f"
+   },
+   {
+    "seq": 3,
+    "tick": 4,
+    "kind": "evento",
+    "payload": {
+     "tick": 4,
+     "kind": "benign_action",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "60a6a36b2c278ab7ce1fd7e73b70c8950adcefa31e9bd6054550036c71bea27f",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"benign_action\", \"signal\": null, \"tick\": 4}",
+    "hash": "47e509d1f7cff5e3884640f104e64b3b7bb18db88ddb766c7ca63262ebce53d2"
+   },
+   {
+    "seq": 4,
+    "tick": 5,
+    "kind": "evento",
+    "payload": {
+     "tick": 5,
+     "kind": "egress_allowed",
+     "blocked": false,
+     "contained": false,
+     "dangerous": false
+    },
+    "prev_hash": "47e509d1f7cff5e3884640f104e64b3b7bb18db88ddb766c7ca63262ebce53d2",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"egress_allowed\", \"tick\": 5}",
+    "hash": "16e9109515a26224bb22fc8c89a18bc1463cdd71f5c4fc77deeb20a02cf8b8d5"
+   },
+   {
+    "seq": 5,
+    "tick": 6,
+    "kind": "evento",
+    "payload": {
+     "tick": 6,
+     "kind": "benign_action",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "16e9109515a26224bb22fc8c89a18bc1463cdd71f5c4fc77deeb20a02cf8b8d5",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"benign_action\", \"signal\": null, \"tick\": 6}",
+    "hash": "a4a3a280bb3caa731ebf573fd3f60a4017d5cc617cf914b9fb4b18bb9a605911"
+   },
+   {
+    "seq": 6,
+    "tick": 7,
+    "kind": "evento",
+    "payload": {
+     "tick": 7,
+     "kind": "tool_request_low",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "a4a3a280bb3caa731ebf573fd3f60a4017d5cc617cf914b9fb4b18bb9a605911",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"tool_request_low\", \"signal\": null, \"tick\": 7}",
+    "hash": "36fcb1ebcb0a6c86723f18e46113b1b9b13314e7bdc632160e40c78daad23eca"
+   },
+   {
+    "seq": 7,
+    "tick": 9,
+    "kind": "evento",
+    "payload": {
+     "tick": 9,
+     "kind": "egress_allowed",
+     "blocked": false,
+     "contained": false,
+     "dangerous": false
+    },
+    "prev_hash": "36fcb1ebcb0a6c86723f18e46113b1b9b13314e7bdc632160e40c78daad23eca",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"egress_allowed\", \"tick\": 9}",
+    "hash": "3cf4e90f92c8b8708a90fb679bf3e011f3ff9125720462a4c670f50902ffe969"
+   },
+   {
+    "seq": 8,
+    "tick": 10,
+    "kind": "evento",
+    "payload": {
+     "tick": 10,
+     "kind": "benign_action",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "3cf4e90f92c8b8708a90fb679bf3e011f3ff9125720462a4c670f50902ffe969",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"benign_action\", \"signal\": null, \"tick\": 10}",
+    "hash": "0f955926045a0f8397222712d589ad82933179c9e7826dbb8bc163d19c20e496"
+   },
+   {
+    "seq": 9,
+    "tick": 12,
+    "kind": "evento",
+    "payload": {
+     "tick": 12,
+     "kind": "tool_request_low",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "0f955926045a0f8397222712d589ad82933179c9e7826dbb8bc163d19c20e496",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"tool_request_low\", \"signal\": null, \"tick\": 12}",
+    "hash": "8773fa17b1c2ed65358f2791926e861d5f8b2e8d9662a2eba971c75188c01580"
+   },
+   {
+    "seq": 10,
+    "tick": 14,
+    "kind": "evento",
+    "payload": {
+     "tick": 14,
+     "kind": "benign_action",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "8773fa17b1c2ed65358f2791926e861d5f8b2e8d9662a2eba971c75188c01580",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"benign_action\", \"signal\": null, \"tick\": 14}",
+    "hash": "d08a43fa0126d296f94f63491db413d13653de51d1fb2110e6db6366c8233b9b"
+   },
+   {
+    "seq": 11,
+    "tick": 15,
+    "kind": "final",
+    "payload": {
+     "posture": "P0",
+     "verify_ok": true
+    },
+    "prev_hash": "d08a43fa0126d296f94f63491db413d13653de51d1fb2110e6db6366c8233b9b",
+    "canon": "{\"posture\": \"P0\", \"verify_ok\": true}",
+    "hash": "0a1aa0851be4415ef1e783affdea9a719513282421bbe7f1c6d3475dc5685ac5"
+   }
+  ]
+ },
+ "ledger_final_hash": "0a1aa0851be4415ef1e783affdea9a719513282421bbe7f1c6d3475dc5685ac5"
+}

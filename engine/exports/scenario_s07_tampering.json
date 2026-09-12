@@ -1,0 +1,265 @@
+{
+ "scenario_id": "s07_tampering",
+ "final_posture": "P3",
+ "posture_history": [
+  {
+   "tick": 0,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 1,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 2,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 3,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 4,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 5,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 6,
+   "posture": "P3",
+   "r": 0.1,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 1.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 7,
+   "posture": "P3",
+   "r": 0.1,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 1.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 8,
+   "posture": "P3",
+   "r": 0.1,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 1.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 9,
+   "posture": "P3",
+   "r": 0.1,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 1.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 10,
+   "posture": "P3",
+   "r": 0.1,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 1.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 11,
+   "posture": "P3",
+   "r": 0.1,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 1.0,
+    "coordination": 0.0
+   }
+  }
+ ],
+ "events": [
+  {
+   "tick": 6,
+   "kind": "log_tamper_detected",
+   "signal": "log_tamper_attempt",
+   "dangerous": true,
+   "blocked": true,
+   "contained": true
+  },
+  {
+   "tick": 8,
+   "kind": "benign_action",
+   "signal": null,
+   "dangerous": false,
+   "blocked": false,
+   "contained": false
+  }
+ ],
+ "review_required": [],
+ "ledger": {
+  "entries": [
+   {
+    "seq": 1,
+    "tick": 6,
+    "kind": "evento",
+    "payload": {
+     "tick": 6,
+     "kind": "log_tamper_detected",
+     "signal": "log_tamper_attempt",
+     "dangerous": true,
+     "blocked": true,
+     "contained": true
+    },
+    "prev_hash": "GENESIS",
+    "canon": "{\"blocked\": true, \"contained\": true, \"dangerous\": true, \"kind\": \"log_tamper_detected\", \"signal\": \"log_tamper_attempt\", \"tick\": 6}",
+    "hash": "e170ea2081b2d46f59046871bbf543325034b3d020c164262e7f0810954c3d5d"
+   },
+   {
+    "seq": 2,
+    "tick": 6,
+    "kind": "postura",
+    "payload": {
+     "from": "P0",
+     "to": "P3",
+     "causa": "tripwire:log_tamper_attempt",
+     "r": 0.1,
+     "I_peak": {
+      "access": 0.0,
+      "credential": 0.0,
+      "egress": 0.0,
+      "resource": 0.0,
+      "evasion": 0.0,
+      "tampering": 1.0,
+      "coordination": 0.0
+     }
+    },
+    "prev_hash": "e170ea2081b2d46f59046871bbf543325034b3d020c164262e7f0810954c3d5d",
+    "canon": "{\"I_peak\": {\"access\": 0.0, \"coordination\": 0.0, \"credential\": 0.0, \"egress\": 0.0, \"evasion\": 0.0, \"resource\": 0.0, \"tampering\": 1.0}, \"causa\": \"tripwire:log_tamper_attempt\", \"from\": \"P0\", \"r\": 0.1, \"to\": \"P3\"}",
+    "hash": "a7b3f250299584c87818159040bd205768171a6cef4e8988d0ea27966ea60ea7"
+   },
+   {
+    "seq": 3,
+    "tick": 8,
+    "kind": "evento",
+    "payload": {
+     "tick": 8,
+     "kind": "benign_action",
+     "signal": null,
+     "dangerous": false,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "a7b3f250299584c87818159040bd205768171a6cef4e8988d0ea27966ea60ea7",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"benign_action\", \"signal\": null, \"tick\": 8}",
+    "hash": "1e19562da5c0a82513c0c2d97064c3f7a0c1eb42ec36a7f67b245df7313cb746"
+   },
+   {
+    "seq": 4,
+    "tick": 11,
+    "kind": "final",
+    "payload": {
+     "posture": "P3",
+     "verify_ok": true
+    },
+    "prev_hash": "1e19562da5c0a82513c0c2d97064c3f7a0c1eb42ec36a7f67b245df7313cb746",
+    "canon": "{\"posture\": \"P3\", \"verify_ok\": true}",
+    "hash": "61d9e3eb5139cd1ecbabb486a7335bd8cfa7c5bad41acfea4446b7cff41b8121"
+   }
+  ]
+ },
+ "ledger_final_hash": "61d9e3eb5139cd1ecbabb486a7335bd8cfa7c5bad41acfea4446b7cff41b8121"
+}

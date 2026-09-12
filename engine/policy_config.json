@@ -1,0 +1,88 @@
+{
+  "_doc": "AI-BSL política declarativa. Los pesos y umbrales son decisión de diseño justificada por incidentes documentados, NO calibrados en producción. Ver AI-BSL_modelo_formal.md secc. 2 y 6.",
+  "version": "0.1",
+
+  "signals": {
+    "access_out_of_scope":     {"categoria": "access",     "lambda": 0.5, "gamma": 0.90, "tripwire": "no",   "posture_target": null},
+    "credential_collect":      {"categoria": "credential", "lambda": 0.8, "gamma": 0.85, "tripwire": "no",   "posture_target": null},
+    "credential_use":          {"categoria": "credential", "lambda": 0.9, "gamma": 0.85, "tripwire": "duro", "posture_target": "P2"},
+    "egress_anomaly":          {"categoria": "egress",     "lambda": 0.7, "gamma": 0.90, "tripwire": "no",   "posture_target": null},
+    "encoded_exfil_prefix":    {"categoria": "egress",     "lambda": 0.8, "gamma": 0.90, "tripwire": "no",   "posture_target": null},
+    "resource_exceed":         {"categoria": "resource",   "lambda": 0.4, "gamma": 0.92, "tripwire": "no",   "posture_target": null},
+    "evasion_retry":           {"categoria": "evasion",    "lambda": 0.7, "gamma": 0.85, "tripwire": "no",   "posture_target": null},
+    "log_tamper_attempt":      {"categoria": "tampering",  "lambda": 1.0, "gamma": 1.00, "tripwire": "duro", "posture_target": "P3"},
+    "exec_layer_spoof":        {"categoria": "tampering",  "lambda": 1.0, "gamma": 1.00, "tripwire": "duro", "posture_target": "P3"},
+    "coordination_undisclosed":{"categoria": "coordination","lambda": 0.6, "gamma": 0.90, "tripwire": "no",   "posture_target": null}
+  },
+
+  "_eventos_a_senales": {
+    "tool_request_low":        {"signal": null, "conf": 0},
+    "tool_request_high":       {"signal": null, "conf": 0},
+    "benign_action":           {"signal": null, "conf": 0},
+    "file_access_out_of_scope":{"signal": "access_out_of_scope", "conf": 0.9},
+    "credential_collect":      {"signal": "credential_collect", "conf": 0.8},
+    "credential_use_anomalous":{"signal": "credential_use", "conf": 0.95},
+    "network_request_blocked": {"signal": "egress_anomaly", "conf": 0.7},
+    "network_encoded_post":    {"signal": "encoded_exfil_prefix", "conf": 0.7},
+    "resource_budget_exceed":  {"signal": "resource_exceed", "conf": 0.85},
+    "retry_after_block":       {"signal": "evasion_retry", "conf": 0.7},
+    "log_tamper_detected":     {"signal": "log_tamper_attempt", "conf": 1.0},
+    "exec_layer_divergence":   {"signal": "exec_layer_spoof", "conf": 0.9},
+    "coord_other_instance":    {"signal": "coordination_undisclosed", "conf": 0.6}
+  },
+
+  "eventos": {
+    "_doc": "Cada clase de evento declara a que postura minima se bloquea (enforcement) y a que senal dispara.",
+    "file_access_out_of_scope": {"enforcement_posture": "P2", "dangerous": true},
+    "credential_collect":       {"enforcement_posture": "P2", "dangerous": true},
+    "credential_use_anomalous": {"enforcement_posture": "P2", "dangerous": true},
+    "network_request_blocked":  {"enforcement_posture": "P2", "dangerous": true},
+    "network_encoded_post":     {"enforcement_posture": "P2", "dangerous": true},
+    "resource_budget_exceed":   {"enforcement_posture": "P1", "dangerous": true},
+    "retry_after_block":        {"enforcement_posture": "P3", "dangerous": true},
+    "log_tamper_detected":      {"enforcement_posture": "P3", "dangerous": true},
+    "exec_layer_divergence":    {"enforcement_posture": "P3", "dangerous": true},
+    "coord_other_instance":     {"enforcement_posture": "P2", "dangerous": true},
+    "tool_request_low":         {"enforcement_posture": null, "dangerous": false},
+    "tool_request_high":        {"enforcement_posture": "P1", "dangerous": true},
+    "benign_action":            {"enforcement_posture": null, "dangerous": false}
+  },
+
+  "riesgo": {
+    "pesos_categoria": {
+      "access": 0.22, "credential": 0.20, "egress": 0.18, "resource": 0.08,
+      "evasion": 0.15, "tampering": 0.10, "coordination": 0.07
+    }
+  },
+
+  "posturas": {
+    "_orden": ["P0", "P1", "P2", "P3", "P4"],
+    "umbrales": {
+      "theta_tripwire": 0.9,
+      "theta_up":        {"P1": 0.15, "P2": 0.40, "P3": 0.70},
+      "theta_up_cat":    {"P1": 0.30, "P2": 0.55, "P3": 0.80},
+      "theta_down":      0.12,
+      "theta_down_cat":  0.08,
+      "tau_hold":        2,
+      "tau_hold_down":   6
+    },
+    "techo_por_capacidad": {
+      "_doc": "Postura maxima sin aprobacion humana segun vector de capacidades.",
+      "condiciones": [
+        {"match": {"N": "full", "X": "native", "M": "persistent"}, "techo": "P3"},
+        {"match": {"N": "full"}, "techo": "P3"},
+        {"match": {"X": "native"}, "techo": "P3"},
+        {"match": {"N": "proxy"}, "techo": "P2"},
+        {"match": {"M": "persistent"}, "techo": "P2"},
+        {"match": {}, "techo": "P1"}
+      ]
+    }
+  },
+
+  "actuadores": {
+    "P1": {"suspend_tools": ["tool_request_high"], "log_verbosity": "high", "resource_cap": 0.6},
+    "P2": {"cut_egress": true, "revoke_tokens": true, "isolate_zones": true, "freeze_tool_pending": true},
+    "P3": {"revoke_all_creds": true, "terminate_instances": true, "reset_env": true, "export_ledger_external": true},
+    "P4": {"terminate": true, "quarantine": true, "forensic_review": true, "redeploy_decision": true}
+  }
+}

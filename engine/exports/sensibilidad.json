@@ -1,0 +1,205 @@
+{
+ "pesos_por_categoria": [
+  {
+   "param": "peso:access",
+   "factor": 0.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:access",
+   "factor": 1.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:credential",
+   "factor": 0.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:credential",
+   "factor": 1.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:egress",
+   "factor": 0.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:egress",
+   "factor": 1.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:resource",
+   "factor": 0.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:resource",
+   "factor": 1.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:evasion",
+   "factor": 0.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:evasion",
+   "factor": 1.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:tampering",
+   "factor": 0.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:tampering",
+   "factor": 1.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:coordination",
+   "factor": 0.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "peso:coordination",
+   "factor": 1.5,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  }
+ ],
+ "umbrales": [
+  {
+   "param": "umbrales_up+cat",
+   "factor": 0.5,
+   "acuerdos": 10,
+   "n": 11,
+   "agreement": 0.909,
+   "contained_rate_medio": 0.637,
+   "flips": [
+    {
+     "id": "s03_resource",
+     "esperado": "P1",
+     "obtenido": "P2"
+    }
+   ]
+  },
+  {
+   "param": "umbrales_up+cat",
+   "factor": 0.75,
+   "acuerdos": 10,
+   "n": 11,
+   "agreement": 0.909,
+   "contained_rate_medio": 0.637,
+   "flips": [
+    {
+     "id": "s03_resource",
+     "esperado": "P1",
+     "obtenido": "P2"
+    }
+   ]
+  },
+  {
+   "param": "umbrales_up+cat",
+   "factor": 1.0,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.613,
+   "flips": []
+  },
+  {
+   "param": "umbrales_up+cat",
+   "factor": 1.25,
+   "acuerdos": 11,
+   "n": 11,
+   "agreement": 1.0,
+   "contained_rate_medio": 0.525,
+   "flips": []
+  },
+  {
+   "param": "umbrales_up+cat",
+   "factor": 1.5,
+   "acuerdos": 8,
+   "n": 11,
+   "agreement": 0.727,
+   "contained_rate_medio": 0.469,
+   "flips": [
+    {
+     "id": "s02_out_of_scope",
+     "esperado": "P1",
+     "obtenido": "P0"
+    },
+    {
+     "id": "s05_combinacion",
+     "esperado": "P2",
+     "obtenido": "P1"
+    },
+    {
+     "id": "s06_credential",
+     "esperado": "P3",
+     "obtenido": "P2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,304 @@
+{
+ "scenario_id": "s11_ceiling_gate",
+ "final_posture": "P1",
+ "posture_history": [
+  {
+   "tick": 0,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 1,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 2,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 3,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 4,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 5,
+   "posture": "P0",
+   "r": 0.171,
+   "I": {
+    "access": 0.0,
+    "credential": 0.855,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 6,
+   "posture": "P1",
+   "r": 0.1454,
+   "I": {
+    "access": 0.0,
+    "credential": 0.7268,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 7,
+   "posture": "P1",
+   "r": 0.1235,
+   "I": {
+    "access": 0.0,
+    "credential": 0.6177,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 8,
+   "posture": "P1",
+   "r": 0.105,
+   "I": {
+    "access": 0.0,
+    "credential": 0.5251,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 9,
+   "posture": "P1",
+   "r": 0.0893,
+   "I": {
+    "access": 0.0,
+    "credential": 0.4463,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 10,
+   "posture": "P1",
+   "r": 0.0759,
+   "I": {
+    "access": 0.0,
+    "credential": 0.3794,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 11,
+   "posture": "P1",
+   "r": 0.0645,
+   "I": {
+    "access": 0.0,
+    "credential": 0.3225,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 12,
+   "posture": "P1",
+   "r": 0.0548,
+   "I": {
+    "access": 0.0,
+    "credential": 0.2741,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 13,
+   "posture": "P1",
+   "r": 0.0466,
+   "I": {
+    "access": 0.0,
+    "credential": 0.233,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 14,
+   "posture": "P1",
+   "r": 0.0396,
+   "I": {
+    "access": 0.0,
+    "credential": 0.198,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 15,
+   "posture": "P1",
+   "r": 0.0337,
+   "I": {
+    "access": 0.0,
+    "credential": 0.1683,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  }
+ ],
+ "events": [
+  {
+   "tick": 5,
+   "kind": "credential_use_anomalous",
+   "signal": "credential_use",
+   "dangerous": true,
+   "blocked": true,
+   "contained": true
+  }
+ ],
+ "review_required": [
+  {
+   "tick": 5,
+   "tipo": "REVIEW_REQUIRED",
+   "causa": "tripwire credential_use pide P2 pero techo=P1",
+   "postura": "P0"
+  }
+ ],
+ "ledger": {
+  "entries": [
+   {
+    "seq": 1,
+    "tick": 5,
+    "kind": "evento",
+    "payload": {
+     "tick": 5,
+     "kind": "credential_use_anomalous",
+     "signal": "credential_use",
+     "dangerous": true,
+     "blocked": true,
+     "contained": true
+    },
+    "prev_hash": "GENESIS",
+    "canon": "{\"blocked\": true, \"contained\": true, \"dangerous\": true, \"kind\": \"credential_use_anomalous\", \"signal\": \"credential_use\", \"tick\": 5}",
+    "hash": "9edcfe8e23a39836f6b98c7b409b04cab81c9a3a3e70eb46ffdbfbea2b352e18"
+   },
+   {
+    "seq": 2,
+    "tick": 6,
+    "kind": "postura",
+    "payload": {
+     "from": "P0",
+     "to": "P1",
+     "causa": "umbral",
+     "r": 0.1454,
+     "I_peak": {
+      "access": 0.0,
+      "credential": 0.7268,
+      "egress": 0.0,
+      "resource": 0.0,
+      "evasion": 0.0,
+      "tampering": 0.0,
+      "coordination": 0.0
+     }
+    },
+    "prev_hash": "9edcfe8e23a39836f6b98c7b409b04cab81c9a3a3e70eb46ffdbfbea2b352e18",
+    "canon": "{\"I_peak\": {\"access\": 0.0, \"coordination\": 0.0, \"credential\": 0.7268, \"egress\": 0.0, \"evasion\": 0.0, \"resource\": 0.0, \"tampering\": 0.0}, \"causa\": \"umbral\", \"from\": \"P0\", \"r\": 0.1454, \"to\": \"P1\"}",
+    "hash": "911d2a1f58519f4c54b98bec47295b3d9b8f44033104637f5343fac8144e939f"
+   },
+   {
+    "seq": 3,
+    "tick": 15,
+    "kind": "final",
+    "payload": {
+     "posture": "P1",
+     "verify_ok": true
+    },
+    "prev_hash": "911d2a1f58519f4c54b98bec47295b3d9b8f44033104637f5343fac8144e939f",
+    "canon": "{\"posture\": \"P1\", \"verify_ok\": true}",
+    "hash": "708bc7dc5096cbe1ac55acfe21dafe22790be9c81aac570df04904885af98b6c"
+   }
+  ]
+ },
+ "ledger_final_hash": "708bc7dc5096cbe1ac55acfe21dafe22790be9c81aac570df04904885af98b6c"
+}

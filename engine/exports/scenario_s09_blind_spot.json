@@ -1,0 +1,316 @@
+{
+ "scenario_id": "s09_blind_spot",
+ "final_posture": "P0",
+ "posture_history": [
+  {
+   "tick": 0,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 1,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 2,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 3,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 4,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 5,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 6,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 7,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 8,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 9,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 10,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 11,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 12,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 13,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 14,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 15,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  }
+ ],
+ "events": [
+  {
+   "tick": 5,
+   "kind": "covert_smuggling",
+   "blocked": false,
+   "contained": false,
+   "dangerous": false
+  },
+  {
+   "tick": 7,
+   "kind": "covert_smuggling",
+   "blocked": false,
+   "contained": false,
+   "dangerous": false
+  },
+  {
+   "tick": 9,
+   "kind": "covert_smuggling",
+   "blocked": false,
+   "contained": false,
+   "dangerous": false
+  }
+ ],
+ "review_required": [],
+ "ledger": {
+  "entries": [
+   {
+    "seq": 1,
+    "tick": 5,
+    "kind": "evento",
+    "payload": {
+     "tick": 5,
+     "kind": "covert_smuggling",
+     "blocked": false,
+     "contained": false,
+     "dangerous": false
+    },
+    "prev_hash": "GENESIS",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"covert_smuggling\", \"tick\": 5}",
+    "hash": "56774d1ddcaf5bd4e6bd5d1d881be1838c6d7456f54c92dcd57831008b6bb091"
+   },
+   {
+    "seq": 2,
+    "tick": 7,
+    "kind": "evento",
+    "payload": {
+     "tick": 7,
+     "kind": "covert_smuggling",
+     "blocked": false,
+     "contained": false,
+     "dangerous": false
+    },
+    "prev_hash": "56774d1ddcaf5bd4e6bd5d1d881be1838c6d7456f54c92dcd57831008b6bb091",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"covert_smuggling\", \"tick\": 7}",
+    "hash": "44d9646ac6fcf74eb6597cb491bdef228a565c0a4f2c22d4f9451a3309153c83"
+   },
+   {
+    "seq": 3,
+    "tick": 9,
+    "kind": "evento",
+    "payload": {
+     "tick": 9,
+     "kind": "covert_smuggling",
+     "blocked": false,
+     "contained": false,
+     "dangerous": false
+    },
+    "prev_hash": "44d9646ac6fcf74eb6597cb491bdef228a565c0a4f2c22d4f9451a3309153c83",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": false, \"kind\": \"covert_smuggling\", \"tick\": 9}",
+    "hash": "e869ebae4e269ef173465cc9ea172569b003367d700a8217094789e12984dedf"
+   },
+   {
+    "seq": 4,
+    "tick": 15,
+    "kind": "final",
+    "payload": {
+     "posture": "P0",
+     "verify_ok": true
+    },
+    "prev_hash": "e869ebae4e269ef173465cc9ea172569b003367d700a8217094789e12984dedf",
+    "canon": "{\"posture\": \"P0\", \"verify_ok\": true}",
+    "hash": "f3b32b97436f6f0d9382e7487ce18e3f3ace19d23d1804ef0c8a7eb6d6bf3f2b"
+   }
+  ]
+ },
+ "ledger_final_hash": "f3b32b97436f6f0d9382e7487ce18e3f3ace19d23d1804ef0c8a7eb6d6bf3f2b"
+}

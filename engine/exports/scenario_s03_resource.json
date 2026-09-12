@@ -1,0 +1,377 @@
+{
+ "scenario_id": "s03_resource",
+ "final_posture": "P1",
+ "posture_history": [
+  {
+   "tick": 0,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 1,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 2,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 3,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 4,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 5,
+   "posture": "P0",
+   "r": 0.0,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.0,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 6,
+   "posture": "P0",
+   "r": 0.0272,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.34,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 7,
+   "posture": "P1",
+   "r": 0.025,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.3128,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 8,
+   "posture": "P1",
+   "r": 0.023,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.2878,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 9,
+   "posture": "P1",
+   "r": 0.0212,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.2648,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 10,
+   "posture": "P1",
+   "r": 0.0467,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.5836,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 11,
+   "posture": "P1",
+   "r": 0.043,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.5369,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 12,
+   "posture": "P1",
+   "r": 0.0395,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.4939,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 13,
+   "posture": "P1",
+   "r": 0.0364,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.4544,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 14,
+   "posture": "P1",
+   "r": 0.0334,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.4181,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 15,
+   "posture": "P1",
+   "r": 0.0308,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.3846,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 16,
+   "posture": "P1",
+   "r": 0.0283,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.3539,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 17,
+   "posture": "P1",
+   "r": 0.026,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.3255,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 18,
+   "posture": "P1",
+   "r": 0.024,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.2995,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  },
+  {
+   "tick": 19,
+   "posture": "P1",
+   "r": 0.022,
+   "I": {
+    "access": 0.0,
+    "credential": 0.0,
+    "egress": 0.0,
+    "resource": 0.2755,
+    "evasion": 0.0,
+    "tampering": 0.0,
+    "coordination": 0.0
+   }
+  }
+ ],
+ "events": [
+  {
+   "tick": 6,
+   "kind": "resource_budget_exceed",
+   "signal": "resource_exceed",
+   "dangerous": true,
+   "blocked": false,
+   "contained": false
+  },
+  {
+   "tick": 10,
+   "kind": "resource_budget_exceed",
+   "signal": "resource_exceed",
+   "dangerous": true,
+   "blocked": true,
+   "contained": true
+  }
+ ],
+ "review_required": [],
+ "ledger": {
+  "entries": [
+   {
+    "seq": 1,
+    "tick": 6,
+    "kind": "evento",
+    "payload": {
+     "tick": 6,
+     "kind": "resource_budget_exceed",
+     "signal": "resource_exceed",
+     "dangerous": true,
+     "blocked": false,
+     "contained": false
+    },
+    "prev_hash": "GENESIS",
+    "canon": "{\"blocked\": false, \"contained\": false, \"dangerous\": true, \"kind\": \"resource_budget_exceed\", \"signal\": \"resource_exceed\", \"tick\": 6}",
+    "hash": "5f6a686bf1b9b91f6724ad6f2cbd189b6f14f2d1954094954db7d7326f0b357c"
+   },
+   {
+    "seq": 2,
+    "tick": 7,
+    "kind": "postura",
+    "payload": {
+     "from": "P0",
+     "to": "P1",
+     "causa": "umbral",
+     "r": 0.025,
+     "I_peak": {
+      "access": 0.0,
+      "credential": 0.0,
+      "egress": 0.0,
+      "resource": 0.3128,
+      "evasion": 0.0,
+      "tampering": 0.0,
+      "coordination": 0.0
+     }
+    },
+    "prev_hash": "5f6a686bf1b9b91f6724ad6f2cbd189b6f14f2d1954094954db7d7326f0b357c",
+    "canon": "{\"I_peak\": {\"access\": 0.0, \"coordination\": 0.0, \"credential\": 0.0, \"egress\": 0.0, \"evasion\": 0.0, \"resource\": 0.3128, \"tampering\": 0.0}, \"causa\": \"umbral\", \"from\": \"P0\", \"r\": 0.025, \"to\": \"P1\"}",
+    "hash": "f2bdc99f88494c7fb8faaa615e287a15872e0361a15fd1674e8ccfab54574afe"
+   },
+   {
+    "seq": 3,
+    "tick": 10,
+    "kind": "evento",
+    "payload": {
+     "tick": 10,
+     "kind": "resource_budget_exceed",
+     "signal": "resource_exceed",
+     "dangerous": true,
+     "blocked": true,
+     "contained": true
+    },
+    "prev_hash": "f2bdc99f88494c7fb8faaa615e287a15872e0361a15fd1674e8ccfab54574afe",
+    "canon": "{\"blocked\": true, \"contained\": true, \"dangerous\": true, \"kind\": \"resource_budget_exceed\", \"signal\": \"resource_exceed\", \"tick\": 10}",
+    "hash": "248953b910d0086c04bb6aa4a9f17cc98bff1ca0d04ac101c49d14f22c8d1a59"
+   },
+   {
+    "seq": 4,
+    "tick": 19,
+    "kind": "final",
+    "payload": {
+     "posture": "P1",
+     "verify_ok": true
+    },
+    "prev_hash": "248953b910d0086c04bb6aa4a9f17cc98bff1ca0d04ac101c49d14f22c8d1a59",
+    "canon": "{\"posture\": \"P1\", \"verify_ok\": true}",
+    "hash": "82240bfa15ff667ab0140cfafe4118c11c5c649d40461b6afc66d61ffcdfe7f4"
+   }
+  ]
+ },
+ "ledger_final_hash": "82240bfa15ff667ab0140cfafe4118c11c5c649d40461b6afc66d61ffcdfe7f4"
+}
